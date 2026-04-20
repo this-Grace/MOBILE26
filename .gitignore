@@ -1,0 +1,30 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor and IDE settings
+.vscode/
+*.iml
+.idea/
+
+# Ignore local machine-specific configuration
+local.properties
+.env/
+
+# Ignore Android/Gradle build artifacts
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Ingore LaTeX file
+*.toc
+*.synctex.gz
+*.synctex.blg
+*.log
+*.out
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.bbl
